@@ -1,0 +1,106 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+sdist/
+wheels/
+*.egg-info
+.installed.cfg
+*.egg-info/
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# PyCharm IDE
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# PyDev
+.project
+.pydevproject
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Logs
+*.log
+logs/
+*.pid
+*.swp
+
+# Odoo specific files
+odoo/addons/*/__pycache__/
+odoo/addons/*/*.pyc
+odoo/addons/*/*.pyo
+addons/**/__pycache__/
+addons/**/*.pyc
+addons/**/*.pyo
+
+# Odoo auto-generated files
+oaddons/**/static/
+addons/**/static/
+addons/**/i18n/.pot
+addons/**/i18n/*.pot
+addons/**/static/translations/*.po
+
+# Database dumps
+*.sql
+*.dump
+*.pg_dump
+
+# IDE settings
+*.idea/
+*.code-workspace
+
+# Docker files and volumes
+docker-compose.override.yml
+.env
+__data__/
+volumes/
+data/
+
+# Other temporary files
+*.~
+*.swp
+*.swo
+*.tmp
+.cache/
+*.bak
+*.orig
+*.rej
+*~
+
+# Compiled translation files
+addons/**/i18n/*.mo
+
